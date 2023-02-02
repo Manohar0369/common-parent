@@ -45,13 +45,13 @@
 		<snapshotRepository>
 			<id>apiSnapshotRepository</id>
 			<name>Internal Snapshots Repository</name>
-			<url>${snapshot.distribution.url}</url>
+			<url>http://43.205.123.132:8081/repository/snapshot/</url>
 			<uniqueVersion>false</uniqueVersion>
 		</snapshotRepository>
 		<repository>
 			<id>apiReleaseRepository</id>
 			<name>Internal Maven Release Repository</name>
-			<url>${releases.distribution.url}</url>
+			<url>http://43.205.123.132:8081/repository/release/</url>
 		</repository>
 	</distributionManagement>
 	<profiles>
