@@ -43,7 +43,7 @@
 	</properties>
 	<distributionManagement>
 		<snapshotRepository>
-			<id>apiSnapshotRepository</id>
+			<id>nexus</id>
 			<name>Internal Snapshots Repository</name>
 			<url>http://43.205.123.132:8081/repository/snapshot/</url>
 			<uniqueVersion>false</uniqueVersion>
